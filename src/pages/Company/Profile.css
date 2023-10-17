@@ -1,0 +1,175 @@
+
+.with-background {
+    background-image: url('file:///C:/Users/HP/Desktop/GODBMS/godbms/src/pages/b2b-final-bg.svg');
+     background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: right, left top; /* Adjust this to position the image as needed */
+    background-size:auto; /* Adjust this to control the size of the background */
+  }
+
+  .d-inline-block{
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .form-heading{
+    font-size:30px ;
+  }
+ 
+  .space{
+    margin-bottom: 15px;
+    padding-left: 2rem;
+    /*background-image: url("C:\Users\HP\Downloads\check.png");*/
+    background-position: 0 0;
+    background-size: 1.2rem 1.2rem;
+    background-repeat: no-repeat;
+  }
+
+  .content{
+    text-align: justify;
+  }
+
+  .plan {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-left: 4%;
+    padding-right: 2px;
+}
+
+  ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+.unstyled{
+  
+  margin-bottom: 15px;
+  padding-left: 2rem;
+ /* background-image: url("C:\Users\HP\Downloads\check.png");*/
+  background-position: 0 0;
+  background-size: 1.2rem 1.2rem;
+  background-repeat: no-repeat;
+}
+
+.paregraph{
+  font-size: 20px;
+
+}
+
+  @media (max-width: 767px) {
+    body {
+      font-size: 15px; /* Adjust font size for mobile screens */
+    }
+    .form-heading{
+      font-size:16px ;
+    }
+
+    .plan{
+      margin: 5px;
+    }
+
+    .space{
+      margin-bottom: 15px;
+      padding-left: 0rem;
+      background-position: 0 0;
+      background-size: 1.2rem 1.2rem;
+      background-repeat: no-repeat;
+    }
+  
+  }
+  
+  /* Media query for screens larger than 768px (typically desktop) */
+  @media (min-width: 768px) {
+    body {
+      font-size: 20px; /* Adjust font size for desktop screens */
+    }
+  }
+
+ /* Style the FAQ section container */
+.faq-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Style the FAQ items container */
+.faq-items {
+  margin-bottom: 20px;
+}
+
+/* Style the FAQ item labels */
+.faq-items label {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #caced1;
+}
+
+/* Style the FAQ item content */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Style the FAQ item content when the radio input is checked */
+input[type="radio"]:checked + label + .faq-content {
+  max-height: 500px;
+  padding-bottom: 10px;
+}
+
+/* Style the FAQ item content text */
+.faq-content .body_card_wrapper {
+  padding: 10px;
+  color: #606162;
+  font-size: 0.85rem;
+}
+
+/* Style the bullet points in the "4 types of trademarks" answer */
+.faq-content .body_card_wrapper li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style the radio input visually hidden */
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+/* Style the radio input when it's checked */
+input[type="radio"]:checked + label::after {
+  content: "";
+  display: inline-block;
+  border: 2px solid black;
+  border-right: none;
+  border-bottom: none;
+  transform: rotate(45deg);
+  height: 10px;
+  width: 10px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.faq-items .faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.faq-items input:checked + label + .faq-content {
+  max-height: 500px; /* Adjust the max-height as needed */
+}
+
+.multiimage {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

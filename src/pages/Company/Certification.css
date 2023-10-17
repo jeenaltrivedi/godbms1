@@ -1,0 +1,23 @@
+
+.plus_icon {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    margin: -30px 25px -20px auto;
+    font-weight: 800;
+}
+
+.row{
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+}
